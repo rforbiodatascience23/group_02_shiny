@@ -1,17 +1,24 @@
-Package: CentralDogma
-Title: An Amazing Shiny App
+Package: CentralDogmaApp
+Title: CentralDogmaApp
 Version: 0.0.0.9000
-Authors@R: 
-    person(given = "firstname",
-           family = "lastname",
-           role = c("aut", "cre"),
-           email = "your@email.com")
-Description: What the package does (one paragraph).
+Authors@R: c(
+    person("Katja", "Jagd", , "knjagd@hotmail.com", role = c("aut", "cre")),
+    person("Anne", "Gjelstrup", , "s194530@dtu.dk", role = "aut"),
+    person("Olivia", "Ronnenberg", , "s183359@dtu.dk", role = "aut"),
+    person("Anna Keisha", "Boateng", , "s175562@dtu.dk", role = "aut"),
+    person("Marlies Jilles Francine", "Goedknegt", , "s220675@dtu.dk", role = "aut")
+  )
+Description: App that transcripes DNA to RNA and translates RNA to
+    protein.
 License: What license is it under?
+URL: https://github.com/rforbiodatascience23/group_02_shiny
+BugReports: https://github.com/rforbiodatascience23/group_02_shiny/issues
 Imports: 
+    CentralDogma,
     config (>= 0.3.1),
+    ggplot2,
     golem (>= 0.4.1),
     shiny (>= 1.7.5)
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 7.1.1
+RoxygenNote: 7.2.3
